@@ -1,17 +1,158 @@
 #title {
-  background-color: #ff4c68;
-  color: #fff;
+    background-color: #ff4c68;
+    color: #fff;
 }
 
+#drawings-id {
+    margin: 1% 5%;
+}
+
+.fas {
+    padding: 0 20px 0 20px;
+}
+
+.contact-div {
+    padding-bottom: 50px;
+}
+
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #fff;
+
+}
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/*  */
 .profile_pic {
-  height: 15rem;
-  width: 15rem;
-  border-radius: 50%;
-  margin: 50px auto 50px auto;
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-div {
+    text-align: center;
 }
 
 .drawings {
+    padding: 0.5rem 0.5rem;
     max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
+    max-height: auto;
+    object-fit: cover;
+}
+
+@media (min-width: 34em) {
+    h1 {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 48em) {
+    body {
+        text-align: left;
+    }
+    h1 {
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+    .desc-div {
+        padding-right: 20%;
+    }
+
+}
+
+@media (min-width: 76em) {
+    body {
+        text-align: left;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+    .desc-div {
+        padding-right: 20%;
+    }
+}
+
+
+/* Contact - Me section */
+#contact {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 50px 15% 50px 15%;
+}
+
+
+
+/* Social Section */
+#social {
+    background-color: #ff8ba7;
+    color: #fff;
+    text-align: center;
+    padding: 50px 15% 50px 15%;
+}
+
+
+
+/* footer */
+#footer p{
+    margin: 30px auto;
+    text-align: center;
 }
